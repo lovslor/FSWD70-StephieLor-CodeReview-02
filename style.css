@@ -1,0 +1,134 @@
+html,body {
+	margin: 10px 2% 0px 2%;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+    background-color: white; 
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #5C1214;
+    height: 100px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+nav {
+  background-color: #131313;
+  padding: 0.2rem; }
+
+nav li {
+  display: inline; }
+
+nav li a {
+  text-decoration: none;
+  padding-right: 0.2rem;
+  color: #FFFFFF; }
+
+ 
+
+/* SECTIONS */
+
+#news {
+	width: 80%;
+	flex-direction: column;
+	justify-content: center;
+}
+#row {
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+#box1, #box2 {
+	position: relative;
+	width: 27vw;
+	flex-direction: row;
+	align-items: 
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+/* BANNERS */
+
+.banner {
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #581113;
+  align-items: center; 
+  display: flex;
+}
+
+#middleBanner {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: flex;
+	justify-content: center;
+}
+
+.banner_CF {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* CLASSES & IDs */
+.flex {
+	display: flex;
+}
+
+.date {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#News {
+	width: 100%;
+	height: 50px;
+	background-color: #d3d3d3;
+	line-height: 250%;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 2%;
+	left: 2%;
+}
+/* TYPOGRAPHY */
+
+.txt {
+	background-color: #131313;
+	position: absolute;
+	bottom:  -3rem;
+	font: #ffffff;
+}
+
+/* IMAGES */
+
+
+
+/* FOOTER*/
+
+#footer {
+  background-color: #131313;
+  margin-top: 5rem; 
+}
+
+#logo {
+  justify-content: flex-end;
+  padding-right: 2rem; }
+
+
+#footer p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.75rem; }
